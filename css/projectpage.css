@@ -68,3 +68,10 @@ body.page h4{
 	letter-spacing: 3px;
 	
 }
+
+
+body.page p{
+
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
