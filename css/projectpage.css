@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300);
+
+@font-face {
+	font-family: 'Varela Round';
+	src: url('../fonts/VarelaRound-Regular.ttf');
+	src: local('VarelaRound-Regular'), local('Varela Round'), url('../fonts/VarelaRound-Regular.ttf') format('truetype');
+}
+
+
+
+header{
+
+	
+
+	
+}
+
+header a{
+	font-size: 20px;
+	font-family: 'VarelaRound-Regular';
+	color: grey;
+	text-decoration: underline;
+	position: fixed;
+	top: 3%;
+	right: 3%;
+}
+
+body.page{
+
+	
+   font-family: 'Quicksand';
+   font-size: 17px;
+   text-align: left;
+
+	
+}
+
+
+
+body.page h1{
+
+	font-family: 'Varela Round';
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+
+}
+
+body.page h3{
+
+	font-family: 'Varela Round';
+	font-size: 25px;
+	letter-spacing: 3px;
+	margin-top: 5%;
+	
+
+}
+
+body.page h5{
+
+	font-family: 'Quicksand';
+	
+}
+
+body.page h4{
+
+	font-family: 'Varela Round';
+	letter-spacing: 3px;
+	
+}
