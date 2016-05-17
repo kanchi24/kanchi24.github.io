@@ -366,3 +366,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', end
 
 	
 }
+
+@media only screen and (max-width: 768px) {
+    .sidebar{
+    	
+    	position: absolute;
+    	
+    	height: auto;
+    }
+
+    .content{
+
+    	clear: both;
+    	overflow: auto;
+    	height: auto;
+    }
+
+    img{
+
+    	display: none;
+    }
+}
