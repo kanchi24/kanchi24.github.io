@@ -367,7 +367,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', end
 	
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .sidebar{
     	
     	position: absolute;
