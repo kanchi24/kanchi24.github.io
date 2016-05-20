@@ -171,7 +171,7 @@ border-color:transparent;
 .sidebar{
 
 	
-	padding: 11%;
+	padding: 10%;
 	height:100%;
 	position: fixed;
 	
@@ -379,11 +379,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', end
 
     	clear: both;
     	overflow: auto;
-    	height: auto;
+    	height: 50%;
+    	text-align: center;
+    }
+
+    .content p{
+    	display: none;
+    }
+
+    #desciption {
+
+    	text-align: center;
+    }
+
+    #description h1{
+    	font-size: 30px;
     }
 
     img{
 
     	display: none;
+    
     }
 }
