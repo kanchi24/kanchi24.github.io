@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:300);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 @font-face {
 	font-family: 'Varela Round';
 	src: url('../fonts/VarelaRound-Regular.ttf');
@@ -28,9 +27,19 @@ header a{
 body.page{
 
 	
-   font-family: 'Quicksand';
+   font-family: 'Open Sans';
    font-size: 17px;
    text-align: left;
+   line-height: 35px;
+   font-weight: 300;
+
+   background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #FFFFFF 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(100%, #FFFFFF)); /* safari4+,chrome */
+background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #FFFFFF 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #FFFFFF 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #FFFFFF 100%); /* ie10+ */
+background: radial-gradient(ellipse at center, #ffffff 0%, #FFFFFF 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#FFFFFF',GradientType=1 ); /* ie6-9 */
 
 	
 }
@@ -72,6 +81,5 @@ body.page h4{
 
 body.page p{
 
-	padding-top: 2%;
-	padding-bottom: 2%;
+		padding-bottom: 2%;
 }
