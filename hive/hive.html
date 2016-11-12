@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Hive Plots</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll"  href="#page-top">Hive Plots</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#description">Description</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#application">Application</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="intro" class="intro-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6">
+          <h1 style="text-align:center;">Hive Plots!</h1>
+          </br><p>Hive Plots are a way of representing complex networks in a more meaningful way ! 
+            In order to make this a bit more helpful, let us take a regular force directed network which contain 500 nodes each! At first glance, plotted using a normal force directed layout, there is little I can infer from this one! 
+          </p></br>
+          <a style="align:center;"class="btn btn-default page-scroll" onclick="loadGraph()" href="#description">Show me this little devil!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="description" class="description-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-lg-6" id="graph1"></div>
+          <div class="col-lg-6" id="graph2"></div>
+          <div class="col-lg-12" id="content" style="display:none">
+           
+            <p>The Hive Plot layout facilitate quick visual assesment of networks by proposing an alternative manner of representation! It works in the following way. It constraints nodes to linear axis</p>
+           
+            <a style="align:center;"class="btn btn-default page-scroll" onclick="loadHive()" >Show me How!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="application" class="application-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Application</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Scrolling Nav JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="d3.hive.min.js"></script>
+  <script src="plots.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+
+
+</body>
+
+</html>
