@@ -24,7 +24,7 @@ var svg2 = d3.select("#graph2").append("svg")
 .attr("width", width2)
 .attr("height", height2)
 .append("g")
-.attr("transform", "translate(" + width2/2 + "," + 450 + ")");
+.attr("transform", "translate(" + width2/2 + "," + 410 + ")");
 
 
 
@@ -266,6 +266,11 @@ function loadHive(){
     nodes1.transition()
              .duration(3000)
              .attr('cx',function(d) {return calculateScale(d); });
+
+    $( "#content p" ).fadeOut();
+    $( "#content p" ).html('Once the nodes are distributed, the edges are drawn as arcs in between them');
+    $( "#content p" ).fadeIn();
+    $( "#content a" ).html('Draw the arcs!');
          
 
 
@@ -277,19 +282,31 @@ function loadHive(){
   if(click == 3)
   {
 
-
-   
-
-   
-
-   svg2.selectAll(".link")
+  var links1 =  svg2.selectAll(".link")
     .data(links)
   .enter().append("path")
     .attr("class", "link")
     .attr("d", d3.hive.link()
     .angle(function(d) { return determine_angle2(d); })
+    .radius(10))
+    .style("stroke", "grey");
+
+  links1.transition()
+           .duration(1500)
+           .attr("class", "link")
+    .attr("d", d3.hive.link()
+    .angle(function(d) { return determine_angle2(d); })
     .radius(function(d) { return calculateScale(d); }))
     .style("stroke", "grey");
+
+
+    $( "#content p" ).fadeOut();
+    $( "#content p" ).html('Voila! Our Hive Plot is plotted!');
+    $( "#content p" ).fadeIn();
+    $( "#content a" ).html('Draw the arcs!');
+         
+
+
 
  }
 
