@@ -1,23 +1,53 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300);
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Nunito');
 
 @font-face {
-	font-family: 'Varela Round';
-	src: url('../fonts/VarelaRound-Regular.ttf');
-	src: local('VarelaRound-Regular'), local('Varela Round'), url('../fonts/VarelaRound-Regular.ttf') format('truetype');
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 
 
-.sidebar p>a{
+.sidebar h3{
 	
-    color: grey;
-	border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: 30;
+    font-family: 'Nunito';
 }
+
+
+
+
+
+#aboutme{
+
+	background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, rgb(236, 233, 230), rgb(255, 255, 255));
+
+	padding-top: 5%;
+
+}
+
+#aboutme p{
+	text-align: justify;
+	font-size: 17px;
+	font-weight: 100;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+#aboutme a{
+
+	text-decoration: underline;
+	color: black;
+}
+
+
 
 .sidebar p>a:hover{
 
-   text-decoration: none;
+ color: palevioletred;
+ text-decoration-style: none;
 }
 
 .sidebar button.btn.btn-default{
@@ -51,6 +81,9 @@ button.btn.btn-default{
 	background-color: white;
 	color: #4CB5AB;
 }
+
+
+
 
 #mportfolio button.btn.btn-default:hover{
 
@@ -175,7 +208,7 @@ border-color:transparent;
 	height:100%;
 	position: fixed;
 	
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 .content{
@@ -183,7 +216,7 @@ border-color:transparent;
 	
 	height: 100%;
 	overflow: scroll;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	
 }
 
@@ -193,10 +226,10 @@ border-color:transparent;
 }
 
 #description h5{
-	font-size: 15px;
+	font-size: 12px;
 
-	font-weight: 100;
-	font-family: 'Raleway';
+	font-weight: 80;
+	font-family: 'Nunito';
 }
 
 hr{
@@ -209,6 +242,18 @@ hr{
 
 }
 
+.sidebar hr{
+
+	
+
+	width: 50%;
+	
+    border: 0;
+    height: 0.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+
+
+}
 
 .fa-arrow-down:before{
 	display: inline;
@@ -249,7 +294,8 @@ hr{
 #description p{
 
 font-size: 20px;
-	font-weight: 100;
+font-weight: 30;
+font-family: 'Nunito'
 }
 
 
@@ -268,6 +314,26 @@ font-size: 20px;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4CB5AB', endColorstr='#008080',GradientType=0 ); /* ie6-9 */
 	
 	
+}
+
+#mira{
+
+	
+	color:#2C507B;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(145,220,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(145,220,255,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(145,220,255,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(145,220,255,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(145,220,255,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(145,220,255,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#91DCFF',GradientType=0 ); /* ie6-9 */
+}
+
+#mira button.btn.btn-default{
+
+	
+	border-color:#2C507B;
+	color:#2C507B;
 }
 
 #mportfolio{
