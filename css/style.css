@@ -446,6 +446,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', end
 	
 }
 
+#tv605{
+color: white;
+background: rgb(83,193,235);
+background: -moz-radial-gradient(circle, rgba(83,193,235,1) 0%, rgba(21,166,222,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(83,193,235,1) 0%, rgba(21,166,222,1) 100%);
+background: radial-gradient(circle, rgba(83,193,235,1) 0%, rgba(21,166,222,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53c1eb",endColorstr="#15a6de",GradientType=1);
+	
+}
+
 @media (max-width: 768px) {
     .sidebar{
     	
