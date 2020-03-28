@@ -82,6 +82,12 @@ button.btn.btn-default{
 	color: #4CB5AB;
 }
 
+#tv605 button.btn.btn-default{
+
+	background-color:transparent;
+	border-color:black;
+	color:black;
+}
 
 
 
@@ -447,12 +453,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', end
 }
 
 #tv605{
-color: white;
-background: rgb(83,193,235);
-background: -moz-radial-gradient(circle, rgba(83,193,235,1) 0%, rgba(21,166,222,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(83,193,235,1) 0%, rgba(21,166,222,1) 100%);
-background: radial-gradient(circle, rgba(83,193,235,1) 0%, rgba(21,166,222,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53c1eb",endColorstr="#15a6de",GradientType=1);
+
+background: rgb(218,218,218);
+background: -moz-radial-gradient(circle, rgba(218,218,218,1) 0%, rgba(228,228,228,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(218,218,218,1) 0%, rgba(228,228,228,1) 100%);
+background: radial-gradient(circle, rgba(218,218,218,1) 0%, rgba(228,228,228,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dadada",endColorstr="#e4e4e4",GradientType=1);
 	
 }
 
